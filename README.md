@@ -30,11 +30,3 @@ com.example.epidemic
 │ ├── ScraperService.java
 │ ├── SmsAlertService.java
 │ └── SchedulerService.java
-
-📡 API Endpoint
-GET /test-alert – Manually trigger an alert check
-
-🔔 Sample Alert
-Alert Triggered! US has 15000 confirmed cases.
-For more info: https://arcg.is/1DPOWm0
-Last updated: [timestamp]
