@@ -2,7 +2,7 @@
 
 A Java-based Spring Boot application that scrapes real-time epidemic data and sends SMS alerts when predefined thresholds are exceeded.
 
-## Features
+## 🚀Features
 
 - Scrapes COVID-19 data from [Esri's ArcGIS Dashboard] (https://arcg.is/0fHmTX)
 - Monitors specific countries (e.g., US, Sweden)
@@ -30,3 +30,11 @@ com.example.epidemic
 │ ├── ScraperService.java
 │ ├── SmsAlertService.java
 │ └── SchedulerService.java
+
+📡 API Endpoint
+GET /test-alert – Manually trigger an alert check
+
+🔔 Sample Alert
+Alert Triggered! US has 15000 confirmed cases.
+For more info: https://arcg.is/1DPOWm0
+Last updated: [timestamp]
